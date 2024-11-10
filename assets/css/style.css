@@ -10,12 +10,10 @@ body{
 #contactos{
     width: 15vw;
     height: 100vh;
-    background-color: black;
 }
 #chat{
     width: 85vw;
     height: 100vh;
-   
 }
 .cabecera{
     display: flex;
