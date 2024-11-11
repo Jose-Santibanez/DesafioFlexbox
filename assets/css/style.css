@@ -68,6 +68,44 @@ body{
     color: white;
     border:0;
 }
+.btn button:hover{
+   background-color: #CDC3E6; 
+}
+.btn button:focus{
+    background-color:gray; 
+ }
+ 
+.listaContactos{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.listaContactos .lista{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid;
+    border-color: #BEC1BB;
+    margin-top: 14px;
+}
+.listaContactos .lista figure{
+    margin:10px 0 0 20px;
+    
+}
+.listaContactos .lista .fotoContacto{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.listaContactos .lista .info{
+    padding: 0 0 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+.listaContactos .lista .info h4{
+    margin: 10px 0 5px 0;
+    font-weight:  normal;
+}
+
 #chat{
     width: 70vw;
     height: 100vh;
